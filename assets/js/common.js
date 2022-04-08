@@ -289,7 +289,7 @@ jQuery(function ($) {
 
 $(document).on('click', '.share', function(){
   var share = document.getElementById("share-btn-comm");
-   if(share.style.display == "none"){
+   if(share.style.display === "none"){
 
      share.style.display =  "block";
    } 
