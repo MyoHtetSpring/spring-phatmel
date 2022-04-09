@@ -285,20 +285,7 @@ jQuery(function ($) {
     $('.offer-head').matchHeight();
     
   });
-  //share hide and show 
-
-// $(document).on('click', '.share', function(){
-//   alert("Hel");
-  // var share = document.getElementById("share-btn-comm");
-  //  if(share.style.display === "none"){
-
-  //    share.style.display =  "block";
-  //  } 
-  //  else {
-  //    share.style.display = "none";
-  //  }
-// });
-  // 
+  
   var flip = 0;
   $( '.share').click(function() {
     $( '.share-btn-comm' ).toggle( flip++ % 2 === 0 );

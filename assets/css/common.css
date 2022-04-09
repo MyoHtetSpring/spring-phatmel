@@ -907,9 +907,11 @@ color: #ee5555;
   margin: 0 auto;
 }
 .share {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
+  cursor: pointer; */
   cursor: pointer;
+  text-align: right;
 }
 .share .share-btn {
   display: flex;
