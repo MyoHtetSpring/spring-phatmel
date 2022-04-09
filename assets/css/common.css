@@ -69,7 +69,7 @@
 .featured-on,
 .institute,
 .students-insight,
-.phatmel {
+.phatmel,.donate {
   padding: 50px 0;
 }
 h2 {
@@ -707,7 +707,7 @@ common-slider
 .carrer-b {
   display: flex;
   padding: 0 10px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .carrer-b-l {
   padding: 0 10px 30px 10px;
@@ -792,11 +792,14 @@ margin-bottom: 10px;
 @media screen and (max-width: 768px) {
 .carrer-b {
   display: block;
+  margin-bottom: 0;
+  margin-left: -20px;
 }
 .carrer-b-l {
   width: 100%;
   padding-bottom: 100px;
   padding-top: 7px;
+  margin-bottom: 40px;
 
 }
 .carrer-b-r {
@@ -948,4 +951,50 @@ color: #ee5555;
   .phatmel-single-img-block  img{
     width: 100%;
   }
+}
+
+/* donate section */
+.donate {
+  background: url(../img/common/spring-bg.png);
+  background-size: 100%;
+}
+/* chate remvoe title */
+.highcharts-title {
+  display: none;
+}
+.highcharts-credits {
+  display: none;
+}
+/*  */
+.donate-number-ttl {
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pipe-chart-block {
+  width: 100%;
+}
+.donate-us-block h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 18px;
+}
+.donate-block-des p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 40px;
+}
+.donate-btn-01 a{
+  display: inline-block;
+ background: #ee5555;
+ font-size: 18px;
+ font-weight: 500;
+ padding: 16px 65px;
+ border-radius: 6px;
+ color: #fff;
+ margin-bottom: 80px;
 }
