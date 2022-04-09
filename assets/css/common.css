@@ -155,6 +155,9 @@ h2 {
   padding: 100px 25px 100px 25px;
 }
 
+/* .main-header {
+  background-color: red;
+} */
 /* institute */
 .insti-box,
 .school-box {
@@ -331,6 +334,13 @@ section testimonials
     width: 85%;
     margin: 0 auto;
   }
+  .test-block {
+    padding: 90px 0 0 0;
+}
+  #testimonials .slick-slide.slick-active {
+    opacity: 1;
+    transform: scale(1.1);
+  }
 }
 @media screen and (max-width: 351px) {
   #testimonials .slick-prev {
@@ -400,6 +410,8 @@ common-slider
   max-width: 1460px;
   padding: 0 30px;
   margin: 0 auto;
+  background: url(../img/common/spring-bg.png);
+  background-size: 100%;
 }
 .main-header.school-header {
   position: fixed;
@@ -997,4 +1009,92 @@ color: #ee5555;
  border-radius: 6px;
  color: #fff;
  margin-bottom: 80px;
+}
+/* ciontact section */
+.contact-section .container{
+  max-width: 700px;
+  margin: 0 auto;
+  /* border: 2px solid #ee5555; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 12px;
+  padding: 25px 20px 40px 20px;
+ 
+}
+.contact-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-block {
+  width: 100%;
+}
+.contact-block span {
+  font-size: 30px;
+  font-weight: 400;
+  color: #ee5555;
+  position: relative;
+  top: 10px;
+}
+.margin-block {
+  margin-bottom: 40px;
+}
+.name-block label{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.email-block label {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.telegram-block label {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.message-block label {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.name-block input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.email-block input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.telegram-block input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.message-block textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+.submit-block-btn a {
+    width: 140px;
+    border: 2px solid #b30000;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #b30000;
+    background: #fff;
+}
+.submit-block-btn a:hover{
+  background: #b30000;
+  color: #fff;
 }
