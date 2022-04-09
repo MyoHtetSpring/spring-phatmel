@@ -154,7 +154,6 @@ h2 {
   text-align: center;
   padding: 100px 25px 100px 25px;
 }
-
 /* .main-header {
   background-color: red;
 } */
@@ -956,9 +955,9 @@ color: #ee5555;
   width: 50px;
   height: 30px;
 }
-.share-btn-comm {
+/* .share-btn-comm {
   display: none;
-}
+} */
 @media screen and (max-width: 768px) {
   .phatmel-single-img-block  img{
     width: 100%;

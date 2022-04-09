@@ -14,10 +14,10 @@ $(function () {
               type: 'pie'
           },
           colors: [
-             '#b82d24',
              '#434349',
              '#a6eb8a',
-             '#f3c59c'
+             '#f3c59c',
+             '#b82d24'
           ],
           title: {
               // text: 'Example Chart',
@@ -66,11 +66,14 @@ $(function () {
           type: 'pie',
           name: 'Browser share',
           data: [
-              ['CDM 11588866 MMk',2341],
               ['IDP Camp - 6450000 MMk',       423],
               ['Scholarship - 8605500 MMk',   214],
-              ['Teacher Education - 309284 MMK',    500]
+              ['Teacher Education - 309284 MMK',    500],
+              ['CDM 11588866 MMk',2341]
           ]
           }]
       });
   });
+
+  //hide and show
+ 
